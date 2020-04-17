@@ -50,6 +50,23 @@ namespace HW13_17_04
                 Console.WriteLine(y);
             }
 
+                  string[] sd = { "1", "2", "3", "4", "5",  };
+            foreach (var y in sd) 
+            {
+                Console.WriteLine(y);
+            }
+            Console.WriteLine("------------------------------");
+             ArrayHelper<string> er = new ArrayHelper<string>();
+             er.UnShift(ref sd, "0");
+            foreach (var y in sd)
+            {
+                Console.WriteLine(y);
+            }   
+
+            string[] Words = { "ant","bee","Cat","Duck","Egle","Fly","Gun","Hot"};
+            ArrayHelper<string> i = new ArrayHelper<string>();
+            // i.Slice(ref Words, 3);
+             i.Slice(ref Words, 1, -5);
                 Console.ReadKey();
         }
     }

@@ -1,0 +1,4 @@
+D:\programming\Projects AlifC#\HW13 17-04\obj\Debug\netcoreapp3.1\HW13 17-04.csprojAssemblyReference.cache
+D:\programming\Projects AlifC#\HW13 17-04\obj\Debug\netcoreapp3.1\HW13 17-04.csproj.CoreCompileInputs.cache
+D:\programming\Projects AlifC#\HW13 17-04\obj\Debug\netcoreapp3.1\HW13 17-04.AssemblyInfoInputs.cache
+D:\programming\Projects AlifC#\HW13 17-04\obj\Debug\netcoreapp3.1\HW13 17-04.AssemblyInfo.cs
