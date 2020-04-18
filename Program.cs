@@ -64,9 +64,9 @@ namespace HW13_17_04
             }   
 
             string[] Words = { "ant","bee","Cat","Duck","Egle","Fly","Gun","Hot"};
-            ArrayHelper<string> i = new ArrayHelper<string>();
-            // i.Slice(ref Words, 3);
-             i.Slice(ref Words, 1, -5);
+            ArrayHelper<string> irt = new ArrayHelper<string>();
+            //irt.Slice(ref Words, 3);
+             irt.Slice(ref Words, 1, -5);
                 Console.ReadKey();
         }
     }
@@ -119,7 +119,7 @@ namespace HW13_17_04
             }
             tt = arr;
         }
-        public T[] Slice(ref T[] sl, int num)
+        public T[] Slice(ref T[] sl, int num, int v)
         {
              if (num < 0)
         {
